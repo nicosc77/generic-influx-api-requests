@@ -1,0 +1,21 @@
+_id: req_f948062c2a914efe87fc8488371d0c6a
+type: Request
+parentId: wrk_2724cc287aba4fc7a91e3eee672436d9
+modified: 1648739873424
+created: 1648739846086
+url: https://localhost:5001/metric/first?location=de-ka&project=generic
+name: Get single metric
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648739846087
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_553387cd22a84027a81204051c928cd9
+type: Request
+parentId: wrk_2724cc287aba4fc7a91e3eee672436d9
+modified: 1648739868475
+created: 1648739834650
+url: https://localhost:5001/metric/?location=de-ka&project=generic
+name: List metrics
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1648739834650
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_ed21fbac5c104797aa81280fe4210d6c
+type: Request
+parentId: wrk_2724cc287aba4fc7a91e3eee672436d9
+modified: 1648740033503
+created: 1648739856220
+url: https://localhost:5001/metric/
+name: Write metric
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"timetamp": "2022-03-30T17:09:01Z",
+    	"location": "de-et",
+    	"project": "generic",
+    	"dataFeatures": {
+    		"voltage": {
+    			"Type": "core.mx.voltage",
+    			"Value": 230.0
+    		},
+    			"current": {
+    			"Type": "core.mx.current",
+    			"Value": 16.0
+    		},
+    		"channel": {
+    			"Type": "core.id.channel",
+    			"Value": "L2"
+    		},
+    		"serial": {
+    			"Type": "core.id.serial",
+    			"Value": "H37583"
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ec02683b22484c27a71c048167a78393
+authentication: {}
+metaSortKey: -1648739856220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
